@@ -7,7 +7,7 @@ Basic Browser-Based Currency Conversion APP that takes a value entered by the us
 
 * Leverages the following endpoint. The following endpoint takes a currency as the base currency and converts it to list of all differen currencies - This app usse this endpoint to calculate the current exchange rate based on the details entered hy the user.
 
-https://api.exchangerate.host/latest?base=...
+>> https://api.exchangerate.host/latest?base=...
 
 * The App Displays the current exchange on the main section, but also lists the current exchange rate for all available currencies on the bottom.
 
