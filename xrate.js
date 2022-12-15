@@ -18,8 +18,7 @@ window.addEventListener("load", function () {
   }
 
   function getRates() {
-    const proxy = "https://cros-anywhere.herokuapp.com/";
-    let response = `${[[proxy]]}https://api.exchangerate.host/latest?base=USD`;
+    let response = `https://api.exchangerate.host/latest?base=USD`;
     fetch(response)
       .then((response) => {
         return response.json();
@@ -50,10 +49,7 @@ window.addEventListener("load", function () {
     console.log(
       `works on click ${amountToConvert} ${convertFromValue} ${convertToValue}`
     );
-    const proxy = "https://cros-anywhere.herokuapp.com/";
-    let response = `${[
-      [proxy],
-    ]}https://api.exchangerate.host/latest?base=${convertFromValue}`;
+    let response = `https://api.exchangerate.host/latest?base=${convertFromValue}`;
     fetch(response)
       .then((response) => {
         return response.json();
